@@ -9,6 +9,7 @@ button.addEventListener('click', function() {
 
     const li = document.createElement("li");
     li.innerText = input.value;
+    li.classList.add("todo-item");
 
     const ul = document.querySelector("#todo-list");
     ul.append(li);

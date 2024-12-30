@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo Plain</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.css" />
     <script defer type="text/javascript" src="app.js"></script>
-</head>
-<body>
-    <h1>Todo Plain</h1>
+  </head>
+  <body>
+    <div class="todo-container">
+      <h1>Todo Plain</h1>
 
-    <h2>Enter task</h2>
-    <form id="todo-form">
-        <input type="text" id="todo-form-input" placeholder="What needs to be done?">
+      <h2>Enter task</h2>
+      <form id="todo-form">
+        <input
+          type="text"
+          id="todo-form-input"
+          placeholder="What needs to be done?"
+          class="todo-input"
+        />
         <button type="button" id="todo-from-button">Add</button>
-    </form>
+      </form>
 
-    <h2>Task list</h2>
-    <ul id="todo-list"></ul>
-</body>
+      <h2>Task list</h2>
+      <ul id="todo-list"></ul>
+    </div>
+  </body>
 </html>
